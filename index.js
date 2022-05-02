@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 require('dotenv').config();
 const { readdirSync } = require('fs');
+const path = require('path');
 
 //app
 const app = express();
